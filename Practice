@@ -1,1 +1,13 @@
+Name = 'Santhosh'
+print("Dear" + " " + Name)
+num = 15
+num = str(num)
+print("You have" + " " + num + " " + "days of leave balance for this")
+year = 2024 
+print ("year" + " " + str(year))
 
+Output is 
+Dear Santhosh
+You have 15 days of leave balance for this
+year 2024
+-------------------------------------------------------------------------
