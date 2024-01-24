@@ -1,10 +1,10 @@
 Name = 'Santhosh'
-print("Dear" + " " + Name)
+print("Dear" + " " + Name) #for giving space in the paragraph we have to mention plain " "
 num = 15
-num = str(num)
+num = str(num) # we have to convert from int to string only then we can join str with int
 print("You have" + " " + num + " " + "days of leave balance for this")
 year = 2024 
-print ("year" + " " + str(year))
+print ("year" + " " + str(year)) method 2 to convert from int to string only then we can join str with int
 
 Output is 
 Dear Santhosh
