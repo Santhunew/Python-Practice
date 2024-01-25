@@ -43,3 +43,22 @@ you are height 170.0cm
 you are 170.0
 You are 66.93 inches tall
 -------------------------------------------------------------------------------------
+name = input("enter your name : ")
+email_id = input("enter your mail id : ")
+ph = input("enter your phone number")
+
+print("************************")
+print("Username" + name)
+print("Email" + email_id)
+print("ph" + ph)
+print("************************")
+
+output:
+************************
+UsernameSanthosh C
+Emailsanthosh.ss7878@gmail.com
+ph9965257878
+************************
+
+-----------------------------------------------------------------------------------
+
