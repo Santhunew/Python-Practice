@@ -62,3 +62,17 @@ ph 9965257878
 
 -----------------------------------------------------------------------------------
 
+import math
+n = float(input("enter the N vaule : "))
+print ("The Log2 value is : " + " " + str(math.log2(n)))
+print ("The Cos value is : " + " " + str(math.cos(n)))
+print ("The E Value is : " + " " + str(math.e))
+
+output is :
+enter the N vaule : 2134
+The Log2 value is :  11.059344460824425
+The Cos value is :  -0.6535067302421101
+The E Value is :  2.718281828459045
+
+-------------------------------------------------------------------------------------
+
