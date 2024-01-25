@@ -25,3 +25,21 @@ Dear Santhosh
 You have 15 days of leave balance for this
 year 2024
 -----------------------------------------------------------------------------
+name = (input("what is your name : "))
+print("Hello " + name)
+
+height = float(input("what is your height : "))
+print("you are height " + str(height) + "cm")
+print(type(height))
+print("you are " + str(height))
+print("You are " + "{:.2f}".format(height / 2.54) + " inches tall")
+
+Output
+what is your name : santhosh
+Hello santhosh
+what is your height : 170
+you are height 170.0cm
+<class 'float'>
+you are 170.0
+You are 66.93 inches tall
+-------------------------------------------------------------------------------------
