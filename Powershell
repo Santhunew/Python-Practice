@@ -1,1 +1,11 @@
+$leaveBalance = 15
+$year = Get-Date -Format "yyyy"
+$name = "santhosh"
 
+Write-Output "Dear $name"
+Write-Output "You have $leaveBalance days of leave balance for the year $year."
+
+output
+Dear santhosh
+You have 15 days of leave balance for the year 2024-20-22.
+---------------------------------------------------------------------------------------
