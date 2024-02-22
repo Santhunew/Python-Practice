@@ -9,3 +9,17 @@ output
 Dear santhosh
 You have 15 days of leave balance for the year 2024-20-22.
 ---------------------------------------------------------------------------------------
+
+$name = Read-Host "Enter the name"
+$email_id =Read-Host "Enter the email_id"
+$ph = Read-Host "Enter the Phonenumber"
+$separator = "*" * 24
+
+#output
+
+Write-Output $separator 
+Write-Output "username: $name"
+Write-Output "Email: $email_id"
+Write-Output "Phone: $ph"
+Write-Output $separator 
+------------------------------------------------------------------------------------
