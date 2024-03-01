@@ -1,5 +1,5 @@
 $leaveBalance = 15
-$year = Get-Date -Format "yyyy"
+$year = Get-Date -Format "yyyy-mm-dd"
 $name = "santhosh"
 
 Write-Output "Dear $name"
@@ -23,3 +23,12 @@ Write-Output "Email: $email_id"
 Write-Output "Phone: $ph"
 Write-Output $separator 
 ------------------------------------------------------------------------------------
+
+Write a powershell program to find out what version of powershell you are using.
+write-output $PSVersionTable.PSVersion
+Output:
+PS C:\windows\system32> write-output $PSVersionTable.PSVersion
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      19041  4046
+----------------------------------------------------------------------------------------
