@@ -106,3 +106,13 @@ Output:
 python --version 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]
 sys.version_info(major=3, minor=10, micro=0, releaselevel='final', serial=0)
 -----------------------------------------------------------------------------------------------------
+Write a Python program to display the current date and time.
+
+import datetime
+current_datetime = datetime.datetime.now()
+print("Current date and time is: " , current_datetime)
+
+Output:
+Current date and time is:  2024-03-01 16:28:12.844409
+--------------------------------------------------------------------------------------------
+
